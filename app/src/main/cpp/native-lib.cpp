@@ -5,7 +5,7 @@
 
 using Eigen::MatrixXd;
 
-extern "C" JNIEXPORT jint
+extern "C" JNIEXPORT jdouble
 JNICALL
 Java_zigzak_net_eigendemo_MainActivity_computeDeterminant(
         JNIEnv *env,

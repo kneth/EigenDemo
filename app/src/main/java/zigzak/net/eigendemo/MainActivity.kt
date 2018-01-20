@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
      * A native method that is implemented by the 'native-lib' native library,
      * which is packaged with this application.
      */
-    private external fun computeDeterminant() : Int
+    private external fun computeDeterminant() : Double
 
 
     companion object {
